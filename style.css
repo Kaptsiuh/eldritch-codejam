@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./assets/Ass.webp) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.ancients {
+    width: 34%;
+    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancient {
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.ancient img {
+    max-width: 200px;
+    border-radius: 15px;
+}
+
+.levels {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.level {
+    margin: 10px 0;
+    width: 200px;
+    height: 7%;
+    cursor: pointer;
+    border-radius: 6px;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.level:hover {
+    opacity: 1;
+}
+
+.cards-container {
+    width: 30%;
+}
+
+.current-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stage-container {
+    width: 50%;
+    margin: 10px;
+}
+
+.stage-text {
+    margin: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #fff;
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.card {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-card {
+    height: 80%;
+    width: 200px;
+    border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.new-card:hover {
+    opacity: 1;
+}
+
+.last-card {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+.last-card-visible {
+    /* background-image: url(./assets/MythicCards/blue/blue1.png); */
+    width: 200px;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.active {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+    opacity: 1;
+}
