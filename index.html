@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="ancients">
+            <div class="ancient"><img class="image" src="./assets/Ancients/Azathoth.png" alt="Azathoth"></div>
+            <div class="ancient"><img class="image" src="./assets/Ancients/Cthulthu.png" alt="Cthulthu"></div>
+            <div class="ancient"><img class="image" src="./assets/Ancients/IogSothoth.png" alt="IogSothoth"></div>
+            <div class="ancient"><img class="image" src="./assets/Ancients/ShubNiggurath.png" alt="ShubNiggurath"></div>
+        </div>
+        <div class="levels">
+            <button class="level">Slave</button>
+            <button class="level">Easy</button>
+            <button class="level">Normal</button>
+            <button class="level">Hard</button>
+            <button class="level">Dungeon Master</button>
+        </div>
+        <div class="cards-container">
+            <div class="current-state">
+                <div class="stage-container">
+                    <span class="stage-text">First Stage</span>
+                    <div class="dots-container">
+                        <div class="dot blue" id="1"></div>
+                        <div class="dot brown" id="2"></div>
+                        <div class="dot green" id="3"></div>
+                    </div>
+                </div>
+                <div class="stage-container">
+                    <span class="stage-text">Second Stage</span>
+                    <div class="dots-container">
+                        <div class="dot blue" id="4"></div>
+                        <div class="dot brown" id="5"></div>
+                        <div class="dot green" id="6"></div>
+                    </div>
+                </div>
+                <div class="stage-container">
+                    <span class="stage-text">Third Stage</span>
+                    <div class="dots-container">
+                        <div class="dot blue" id="7"></div>
+                        <div class="dot brown" id="8"></div>
+                        <div class="dot green" id="9"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <button class="new-card">Take a card</button>
+            </div>
+            <div class="last-card">
+                <div class="last-card-visible"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
